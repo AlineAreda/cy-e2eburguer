@@ -36,9 +36,12 @@ Certifique-se de ter instalado:
  1. Clone o repositório:
  ```bash
 	git clone https://github.com/AlineAreda/cy-e2eburger.git 
+```
+ 2. Entrar na pasta do projeto clonado:
+ ```bash
 	cd cypress-e2eburger
 ```
-2. Instale as dependências:
+3. Instale as dependências:
  ```bash
 	yarn install
 ```
@@ -63,18 +66,18 @@ Certifique-se de ter instalado:
 -   **Login realizado com sucesso**:
         -   Preenche os dados de login válidos e verifica a mensagem de sucesso.
         -   Garante que o usuário foi redirecionado corretamente.
-        -
+        
 -   **Não deve logar quando senha inválida**:    
     -   Tenta logar com senha incorreta e valida a mensagem de erro exibida.
-    
-    -   **Não deve logar quando dados em branco**:    
+
+ -   **Não deve logar quando dados em branco**:    
     -     Tenta logar sem preecnher credenciais e valida a mensagem obrigatóriedade dos campos.
     
-        -   **Usuário perfil salão deve acessar aplicação pelo APP**:    
-	    -     Tenta logar com perfil salão e direciona para página de info para fluxo do app.
+ -   **Usuário perfil salão deve acessar aplicação pelo APP**:    
+	-  Tenta logar com perfil salão e direciona para página de info para fluxo do app.
 			  
     
-    - ### Demonstração 
+      ### Demonstração 
     - [Testes de Login](https://github.com/user-attachments/assets/6eca6e12-05bd-46ac-b39e-04a151049b42)
     
 
@@ -91,6 +94,7 @@ As principais dependências do projeto são:
 
 A organização do projeto segue a estrutura padrão recomendada pelo Cypress:
 
+ ```bash
 cy-e2eburguer/
 ├── cypress/
 │   ├── e2e/                   # Arquivos de testes E2E
@@ -99,6 +103,9 @@ cy-e2eburguer/
 ├── cypress.config.js          # Arquivo de configuração do Cypress
 ├── package.json               # Dependências e scripts do projeto
 └── README.md                  # Documentação do projeto
+
+	
+```
 
 
 
