@@ -64,17 +64,17 @@ Certifique-se de ter instalado:
 ### Testes de Login
 
 -   **Login realizado com sucesso**:
-        -   Preenche os dados de login válidos e verifica a mensagem de sucesso.
-        -   Garante que o usuário foi redirecionado corretamente.
+	-  Preenche os dados de login válidos e verifica a mensagem de sucesso.
+	-  Garante que o usuário foi redirecionado corretamente.
         
 -   **Não deve logar quando senha inválida**:    
-    -   Tenta logar com senha incorreta e valida a mensagem de erro exibida.
+	-  Tenta logar com senha incorreta e valida a mensagem de erro exibida.
       
 -   **Não deve logar quando dados em branco**:
-        -   Tenta logar sem preecnher credenciais e valida a mensagem obrigatóriedade dos campos.
+	 - Tenta logar sem preecnher credenciais e valida a mensagem obrigatóriedade dos campos.
 
 -   **Não deve logar quando dados em branco**:
-        -   Tenta logar com perfil salão e direciona para página de info para fluxo do app.    
+	 -  Tenta logar com perfil salão e direciona para página de info para fluxo do app.    
 			  
     
       ### Demonstração 
