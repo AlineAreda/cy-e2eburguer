@@ -78,10 +78,10 @@ Certifique-se de ter instalado:
     
 			  
     
-      ### Demonstração 
-    - [Testes de Login]
-     ([https://github.com/user-attachments/assets/6eca6e12-05bd-46ac-b39e-04a151049b42](https://github.com/user-attachments/assets/48454d9d-f18b-4beb-97cd-9b99962329ee))
-    
+      ### Demonstração
+    [Testes de Login](https://github.com/user-attachments/assets/48454d9d-f18b-4beb-97cd-9b99962329ee)
+
+   
 
 ## 📦 Dependências Principais
 
